@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: word-battle
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

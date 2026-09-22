@@ -1,1 +1,1 @@
-{"name":"word-battle","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.js"}}
+{"name":"word-battle","version":"1.0.0","private":true,"type":"module","engines":{"node":">=20"},"scripts":{"start":"node server.js"}}
